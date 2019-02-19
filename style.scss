@@ -155,7 +155,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: 35px 0;
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
@@ -212,7 +212,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 15px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -224,7 +224,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-left: 2px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -264,8 +264,10 @@ nav {
 }
 
 footer {
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
+  color: $gray;
+  font-size: 14px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
